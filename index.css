@@ -1,0 +1,116 @@
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+
+}
+
+.topnav a:hover {
+  background-color: #FF0000;
+  display: block;
+}
+
+.topnav a.active {
+  background-color: #FF0000;
+  
+  
+}
+
+footer {
+  display: block;
+  background-color: #A9A9A9;
+   padding: 00px 00px;
+}
+
+marquee{
+      font-size: 30px;
+      font-weight: 800;
+      color: #DC143C;
+      font-family: sans-serif;
+      }
+.main
+{
+width:300px;
+height:100vh;
+margin:0 auto;
+position:relative;
+overflow: hidden;
+background: #fdfdfd;	
+}
+
+
+
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+	  
+	  </style>
+	  
+
+/*.hero{background-image:url("https://i.pinimg.com/originals/1f/b0/e1/1fb0e12f3c86ae4e10123e5ce988e227.jpg");
+width: 1000%;
+  height: 700px;
+  object-fit: cover;
+  object-position: 15% 100%;
+}
+
+
+</style>*/

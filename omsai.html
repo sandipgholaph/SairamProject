@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+<link rel="stylesheet" href="index.css">
+    <!-- Demo styles -->
+    
+  </head>
+
+  <body>
+  
+    <marquee  >
+साई राम मेन्स वेअर अँन्ड कलेक्शन अळकुटी मध्ये आपले स्वागत आहे !! आम्ही सण 2005 पासून आपल्या सेवेत आहोत. आमच्याकडे सर्व प्रकारचे ब्रँन्डेड कपडे रास्त दरात शिऊन मिळतील.
+</marquee>
+  
+  <div class="topnav">
+  <a class="active" href="#home">मुख्यपृष्ठ</a>
+  <a href="#news">नवीन ग्राहक</a>
+  <a href="#contact">मोजमाप</a>
+  <a href="#about">नवीन ऑर्डर</a>
+  <a href="#about">प्रिंट बिल</a>
+  <a href="#about">Managemengt</a>
+  <a href="Retrive.php">कॅटलॉग पहा </a>
+  <a href="Upload.html">कॅटलॉग जोडा</a>
+  
+  
+</div>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+		<img src="1.png" style="width:100%">
+		</div>
+        <div class="swiper-slide">
+		<img src="2.png" style="width:100%">
+		</div>
+		<div class="swiper-slide">
+		<img src="3.png" style="width:100%">
+		</div>
+		<div class="swiper-slide">
+		<img src="4.png" style="width:100%">
+		</div>
+		<div class="swiper-slide">
+		<img src="5.png" style="width:100%">
+		</div>
+		<div class="swiper-slide">
+		<img src="6.png" style="width:100%">
+		</div>
+		<div class="swiper-slide">
+		<img src="7.png" style="width:100%">
+		</div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+	
+	<footer>
+  <div align="center" style="margin-top:00px;"><p>Designed with love by SS Software Solutions</p>
+<p>We design Websites, Software and Mobile Apps | Call +7798151873</p></div>
+    </div>
+</footer>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>

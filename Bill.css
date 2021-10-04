@@ -1,0 +1,42 @@
+.center
+{
+ 
+  text-align: center;
+  color: red;
+}
+
+.tagline
+{
+	color: red;
+	
+	
+	
+
+}
+.pro
+{
+	text-align: right;
+	
+	}
+.phone
+{
+	 position: absolute;
+    right: 53px;
+	color:green;
+	}
+.titleline
+{
+ font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 60px;
+	color:red;
+	
+	
+}	
+	
+.Shakha
+
+{
+	position: absolute;
+	left: 53px;
+}

@@ -1,0 +1,196 @@
+.split {
+  height: 100%;
+  width: 60%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.border-10{
+border-style:solid;
+ border-width: 10px;
+}
+
+.marq{
+  padding-bottom: 15px;
+}
+marquee
+
+	{
+      font-size: 32px;
+  
+      color: #DC143C;
+	  height="10px";
+	  width="20%";
+	  vspace="20";
+      font-family: "sans-serif";
+	  marquee-direction: backward;
+	  background-color:#1E90FF;
+      }
+	
+
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #C0C0C0;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: #C0C0C0;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.inputfortextbox{
+padding-left: 0px; 
+padding-right: 20px; 
+	
+}	
+
+h1 {
+    text-align:center;
+}
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+.col-8
+{
+	 padding:10px 15px 15px 1px;
+}
+.form-group
+{
+		 padding:10px 15px 15px 20px;
+		 
+
+}
+
+.box1
+{
+	padding-bottom:10px;
+}
+
+
+.differentTable, .differentTable td{
+   border-color: black;
+}
+
+
+.tb
+{
+	
+padding-top:1px;
+  
+  
+}
+th
+{
+  border: 1px solid black;
+}
+td {
+  border: 1px solid black;
+}
+
+
+
+h1 {
+	
+
+	text-align:center;
+}
+
+h2 {
+	text-align:center;
+}
+
+
+.submit-button
+{
+	padding: 20px;
+
+}
+
+.inner-addon { 
+    position: relative; 
+}
+
+* {box-sizing: border-box;}
+
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 90%;
+  margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+
+
+
+
+
+.btn:hover {
+  opacity: 1;
+}
+
+.date
+{
+
+  padding-top: 20px;
+  
+}
+.tag
+{
+	background: #228B22;
+	padding-right: 30px;
+	padding-top:10px;
+}
+
+
+.marq {
+ 
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.marq1 {
+ 
+  width: 100%;
+  padding-top:20px;
+  margin-bottom: 15px;
+}
+
